@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "buy-and-sell-6b413",
+    "private_key_id": "0d178ffc7975b8f81eda0dd1a7f736b183105679",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyjxnxt8JDpgwS\nJd4NCCEVuNrDVI3X/msZuEkf8l0MBe2mjY0ZpQ5yuS15yp2mD+VLwVWSVD6HVXQ6\nUTvw3St1pu6A/TOnQkr3QY/yzZN+P+tCxpgeVESXgb4zFW6wxyYhtK72aPO4LkyF\nuO8+D4J/aLobYNlpX9ZlaqzV/zg/D0qQZM8NIGBGCHE0NPLdZ3+krW2c13oeyfRJ\nSzi5fnrWHzD/fN4UR5lWVrBGWyFCrYwslS/bOLkljwuA8clz8Tl5X9baIQ/NQbBX\nWVYMzLmkVCOS3t3qpdI+xbvlgmGiJSck4DOxGjXGkxDH40ggaeDN5hKHIBQojIWg\nPDQT3XPRAgMBAAECggEAQs5XnqBqBnVxvrh8Q9PuzPnEn6BbEZ0W5SCV+2Xqej0d\nlVsQl6+xoCq4YQD1ytPXrmg/Y+gxHOFUAx2xl4SoZfR297vEP6gF9EyLVwSjUnEH\nzIwRDgfpQeZBC0vRhkJ8ec/oRjkuNpLb/owattWGtbSxLN0nes1oobkvwUEkAjNO\nNQwIrkHtkCX3ZfZBbsJkNu6SUYdmF1fSgYVKBU8JD78+ACFIJUEWZux2JWEPoHJ9\nJhbypeWsMVMW7nfBQeo8BiFVavaCGJ34LkO23FSy33/FGWGQJq54CCAVaw9O8q2j\ngHBX72Vtcae7IHTFIyggZ8JhNforWqQomOCRNJlkIQKBgQDhZVvv5QQVi8ODXQLS\nzcf5fL6zJpQv0nX63/FqwWnEsrKx1W+JLykLNvyWUu3zKQIb9ZpurqhbtQgjbyXw\nkpwx+4FmxLocCAzLx5EIHbkixErFzzocgDZS2iL0mZr8Mf2Yy2EIapQWj0bHJTaW\nSCfd1SWpEQiqB/n5b7oao3GWzwKBgQDKzbcgMpt1YvM/ZvbpzUPzeYGMxgKQOHif\nMSQ6mzELAtiu8kQJZ6dpiftVJmJab4KJbtBmgBWQO384PGg00oMSg1NVemy+/hXl\nr9CacOssFozI1Fy9/R4TVANw5nTyp+aCl8PntSMDKWEI/HauFkLPRZB1kYkTi+fK\nnNODYHDzXwKBgQDVFyWXJHX7BLqfy+RqdeA0b4o/Bx8cIyYlO2kbG6YqLyOf2wBq\nuupbzu14FQkfVUrIMieBsqA6q2j5TxCYY5NF8dhB14V4EOhAE/l6qdcpFlj2sFbp\nMRGqvM5FX59WBNETjlu7QD+nIGeyyOzVoXwHTocfUppVXdsnxkg0/QbbowKBgHee\nFJgyIU2AmpbX5WULxDuUfFwK4rIsDMFgm8zRgoDLIgE2NfkSIUV3tD2KEVLkGKt1\nKAh9HbrfzO7feltFmzfNK9bsCb4xYbsDE1g0qBFuD4XY9Aa/iADAefMaivohHC4E\n0/ET/t27h1dkiZ+u06MrlcQynhZgW8w+6ebAeH6jAoGABZQrbEaLtEhF4g6uY86g\nIWwC4ZsAnxy8TcY/HzcBg6Dkb348L5uU9bkyeEAvCa/2uJrrdBuiGjBbOAUtZYmX\naEEtTBQnCgyD/lnprAOp9LzcPOGOZ0ZHLE/HMfsUpnpV2iK1ECROAKZ93k+1dt06\n3QzuF3WHSzbyul7VHC8gMrI=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-6bryt@buy-and-sell-6b413.iam.gserviceaccount.com",
+    "client_id": "101655201631286642456",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6bryt%40buy-and-sell-6b413.iam.gserviceaccount.com"
+  }
+
+  
