@@ -46,18 +46,51 @@ async function run(){
           });
 
 
-          app.post('/all-data', async (req, res) => {
+          app.post('/add-product', async (req, res) => {
             const data = req.body;
-          
-            const batch = db.batch();
-          
-            data.forEach(item => {
-              const docRef = db.collection('products').doc();
-              batch.set(docRef, item);
-            });
-            await batch.commit();
-            res.json({ message: 'Data saved successfully' });
+            const result = await db.collection("products").add(data)
+            res.send(result)
         });
+
+
+        app.get('/all-data', async (req, res) => {
+            
+          const snapshot = await db.collection('products').get();
+          const data = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+          res.json(data);
+      
+      });
+
+
+      // get data use id 
+
+      // app.get('/details/:id', async (req, res) => {
+      //   const doc = await db.collection('products').doc(req.params.id).get();
+      
+      //   if (!doc.exists) {
+      //     return res.status(404).json({ error: 'Document not found' });
+      //   }
+      
+      //   return res.json(doc.data());
+      // });
+
+
+
+      app.get('/details/:id', async (req, res) => {
+        const id = req.params.id;
+      
+        try {
+          const doc =  await db.collection('products').where('id','==', id).get();
+          if (!doc.exists) {
+            return res.status(404).json({ error: 'Document not found' });
+          }
+          const data = { id: doc.id, ...doc.data() };
+          return res.json(data);
+        } catch (err) {
+          console.error(err);
+          return res.status(500).json({ error: 'Something went wrong' });
+        }
+      });
 
 
 
